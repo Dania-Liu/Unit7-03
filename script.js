@@ -15,4 +15,6 @@ function testAge () {
   } else {
     alert('Hm. You are too young for most things.')
   }
+  // Displays thank you message.
+  document.getElementById("answer").innerHTML = 'Thank you!'
 }
